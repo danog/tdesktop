@@ -140,7 +140,7 @@ jobs:
           echo "Find necessary commit from doc."
           checkoutCommit=$(grep -A 1 "cd patches" $REPO_NAME/$DOC_PATH | sed -n 2p)
           cd $LibrariesPath
-          git clone $GIT/desktop-app/patches.git
+          git clone $GIT/danog/patches.git
           cd patches
           eval $checkoutCommit
 
