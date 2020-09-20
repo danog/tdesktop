@@ -55,7 +55,7 @@ Go to ***BuildPath*** and run
 
     git clone https://github.com/desktop-app/patches.git
     cd patches
-    git checkout ddd4084
+    git checkout 7e745f6
     cd ../
 
     git clone https://github.com/xiph/opus
